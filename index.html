@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Panda</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/d45c310ca3.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="max-w-9xl px-10">
+    <!-- Navbar Section -->
+    <nav class=" flex justify-around gap-10 mt-2">
+        <!-- logo -->
+        <img src="./images/logo.png" alt="" class="h-10 w-40">
+        <!-- Search input with icon -->
+        <div class="relative w-1/2">
+            <input type="search" name="" id=""
+                class="bg-[#F1F1F1] w-full rounded-full px-4 py-2 pr-10 focus:outline-none"
+                placeholder="Type your text....">
+            <i class="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 cursor-pointer"></i>
+        </div>
+        <!-- NavItems -->
+        <ul class="flex gap-8">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">Product</li>
+            <li class="cursor-pointer">About Us</li>
+            <li class="cursor-pointer">Contact Us</li>
+        </ul>
+    </nav>
+    <!-- Banner Section -->
+     <section class="bg-[#FEEAE9] flex justify-between items-center p-10 my-10 rounded-3xl">
+        <div>
+            <h1 class="text-6xl font-bold">Mi LED TV 4A PRO 32</h1>
+            <p class="my-4 text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <h1 class="text-[#FF136F] text-5xl font-medium">$1289</h1>
+            <button class="btn2 px-5 py-3 mt-4 rounded-lg cursor-pointer text-white">BUY NOW -></button>
+        </div>
+        <img class="h-96 w-auto border-dashed border border-gray-500" src="./images/banner-images/tv.png" alt="">
+     </section>
+     <!-- Categories Section -->
+     <section class="my-10">
+        <h1 class="font-bold text-5xl mb-10">Categories</h1>
+        <!-- Cards -->
+        <div class="grid grid-cols-3 gap-10">
+            <!-- Card 1 -->
+             <div class="btn1  px-4 py-2 flex justify-between items-center  gap-10 rounded-2xl">
+                <h1 class="text-4xl font-bold text-white">Watch</h1>
+                <img class="h-20" src="./images/categories/watch.png" alt="">
+             </div>
+            <!-- Card 2 -->
+             <div class="btn2  px-4 py-2 flex justify-between items-center  gap-10 rounded-2xl">
+                <h1 class="text-4xl font-bold text-white">Bag</h1>
+                <img class="h-20" src="./images/categories/bag.png" alt="">
+             </div>
+            <!-- Card 3 -->
+             <div class="btn3  px-4 py-2 flex justify-between items-center  gap-10 rounded-2xl">
+                <h1 class="text-4xl font-bold text-white">Shoes</h1>
+                <img class="h-20" src="./images/categories/shoes.png" alt="">
+             </div>
+        </div>
+     </section>
+     <!-- Shoes Section -->
+      <section class="my-10" >
+        <div class="my-10 flex justify-between w-full">
+            <h1 class="font-bold text-5xl">Shoes</h1>
+            <p class="font-bold text-lg text-[#FF9D00]">See All</p>
+        </div>
+        <!-- Cards Section -->
+         <div class="grid grid-cols-3 gap-10 bg-[#F4F4F4] p-2 rounded-2xl">
+            <!-- Card1 -->
+             <div class="flex flex-col justify-center items-center shadow-lg bg-[#FEEAE9] rounded-2xl">
+                <img class="w-full h-60" src="./images/shoes/shoe-1.png" alt="">
+                <h1 class="text-2xl  font-bold my-2">Reebok Dart Men’s Shoes</h1>
+                <p class="text-sm text-[#4E4E4E]">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. </p>
+                <p class="text-2xl  font-bold my-2">$1289</p>
+                 <button class="bg-black px-5 py-3 mt-4 rounded-lg cursor-pointer text-white mb-5">BUY NOW -></button>
+             </div>
+            <!-- Card2 -->
+             <div class="flex flex-col justify-center items-center shadow-lg bg-[#FEEAE9] rounded-2xl">
+                <img class="w-full h-60" src="./images/shoes/shoe-2.png" alt="">
+                <h1 class="text-2xl  font-bold my-2">Reebok Pump</h1>
+                <p class="text-sm text-[#4E4E4E]">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. </p>
+                <p class="text-2xl  font-bold my-2">$799</p>
+                 <button class="bg-black px-5 py-3 mt-4 rounded-lg cursor-pointer text-white mb-5">BUY NOW -></button>
+             </div>
+            <!-- Card3 -->
+             <div class="flex flex-col justify-center items-center shadow-lg bg-[#FEEAE9] rounded-2xl">
+                <img class="w-full h-60" src="./images/shoes/shoe-3.png" alt="">
+                <h1 class="text-2xl  font-bold my-2">Reebok All Terrain</h1>
+                <p class="text-sm text-[#4E4E4E]">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. </p>
+                <p class="text-2xl  font-bold my-2">$699</p>
+                 <button class="bg-black px-5 py-3 mt-4 rounded-lg cursor-pointer text-white mb-5">BUY NOW -></button>
+             </div>
+         </div>
+      </section>
+     <!-- Backpack Section -->
+      <section class="my-10 " >
+        <div class="my-10 flex justify-between w-full">
+            <h1 class="font-bold text-5xl">Backpack</h1>
+            <p class="font-bold text-lg text-[#FF9D00]">See All</p>
+        </div>
+        <!-- Cards Section -->
+         <div class="grid grid-cols-3 gap-10 bg-[#F4F4F4] p-2 rounded-2xl">
+            <!-- Card1 -->
+             <div class="flex flex-col justify-center items-center shadow-lg  rounded-2xl">
+                <img class="w-96 h-96" src="./images/bags/bag-1.png" alt="">
+                <h1 class="text-2xl  font-bold my-2">Ison Backpack</h1>
+                <p class="text-sm text-[#4E4E4E]">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. </p>
+                <p class="text-2xl  font-bold my-2">$1289</p>
+                 <button class="bg-black px-5 py-3 mt-4 rounded-lg cursor-pointer text-white mb-5">BUY NOW -></button>
+             </div>
+            <!-- Card2 -->
+             <div class="flex flex-col justify-center items-center shadow-lg  rounded-2xl">
+                <img class="w-96 h-96" src="./images/bags/bag-2.png" alt="">
+                <h1 class="text-2xl  font-bold my-2">Biaowang Backpack</h1>
+                <p class="text-sm text-[#4E4E4E]">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. </p>
+                <p class="text-2xl  font-bold my-2">$799</p>
+                 <button class="bg-black px-5 py-3 mt-4 rounded-lg cursor-pointer text-white mb-5">BUY NOW -></button>
+             </div>
+            <!-- Card3 -->
+             <div class="flex flex-col justify-center items-center shadow-lg  rounded-2xl">
+                <img class="w-96 h-96" src="./images/bags/bag-3.png" alt="">
+                <h1 class="text-2xl  font-bold my-2">Dxyizu WS54 Smart</h1>
+                <p class="text-sm text-[#4E4E4E]">Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. </p>
+                <p class="text-2xl  font-bold my-2">$699</p>
+                 <button class="bg-black px-5 py-3 mt-4 rounded-lg cursor-pointer text-white mb-5">BUY NOW -></button>
+             </div>
+         </div>
+      </section>
+
+      <!-- Contact Us Section -->
+       <section class="bg-[#FFF2F1] flex flex-col justify-center items-center p-28">
+        <h1 class="text-4xl font-bold my-2">LET'S STAY IN TOUCH</h1>
+        <p class="text-sm my-5">Get updates on sales specials and more</p>
+        <div class="flex ">
+            <input class="px-6 py-3 w-80 bg-white" type="email" placeholder="Enter your email...">
+            <button class="btn2 px-6 py-3 cursor-pointer text-white">Send</button>
+        </div>
+       </section>
+</body>
+
+</html>
