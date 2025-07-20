@@ -59,24 +59,6 @@ Panda/
 
 ````
 
----
-
-## 🚀 How to Run Locally
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ahammad204/Panda.git
-````
-
-2. **Open the project folder**:
-
-   ```bash
-   cd Panda
-   ```
-3. **Run the project**:
-
-   * Simply open `index.html` in your browser.
-
-
 
 ## 📧 Contact
 
@@ -87,4 +69,7 @@ If you have any feedback or suggestions, feel free to reach out:
 * **Live Site:** [Panda](https://ahammad204.github.io/Panda/)
 
 ### ⭐ **Don't forget to star this repository if you like this project!**
+
+
+
 
