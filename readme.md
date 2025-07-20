@@ -86,7 +86,5 @@ If you have any feedback or suggestions, feel free to reach out:
 * **GitHub:** [ahammad204](https://github.com/ahammad204)
 * **Live Site:** [Panda](https://ahammad204.github.io/Panda/)
 
----
-
 ### ⭐ **Don't forget to star this repository if you like this project!**
 
